@@ -22,6 +22,7 @@ const Backdrop = styled.div`
   background-size: cover;
   filter: blur(3px);
   opacity: 0.4;
+  z-index: -1;
 `;
 
 const Content = styled.div`
